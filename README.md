@@ -126,6 +126,18 @@ The UML diagram is located in:
 UML/CarDealership_UML.drawio
 ```
 
+Produce a UML class diagram for this project using a digital tool such as [draw.io](https://draw.io), no other tool is allowed.
+
+The diagram must include all classes and show the following for each:
+
+- Class name
+- All fields with their types and access modifiers (`+` public, `-` private, `#` protected)
+- All methods with their return types and parameters
+- Relationships between classes — inheritance arrows where one class extends another, and association arrows where one class holds a reference to another
+
+Export the diagram as a **PNG, PDF, JPEG** and place it in the root of your project named  `uml.pdf`, `uml.png`, `uml.jpeg`. *(STICK TO THE FORMAT)*
+
+
 ---
 
 # Unit Testing
@@ -167,6 +179,7 @@ All theory answers are provided in:
 ```text
 TheoryAnswers.txt
 ```
+**Do not remove the comments and do not change the format.**
 
 Topics covered:
 

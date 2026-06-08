@@ -1,0 +1,128 @@
+DO NOT CHANGE THE FORMAT -- DO NOT CREATE A NEW txt file
+
+=== Question 1 ===
+==== Define Encapsulation ====
+#Answer below
+
+
+
+=== Question 2 ===
+==== Give one advantage of Encapsulation ====
+#Answer below
+
+
+=== Question 3 ===
+==== Define Inheritance ====
+#Answer below
+
+
+
+
+=== Question 4 ===
+==== What is Method Overriding? ====
+#Answer below
+
+
+
+=== Question 5 ===
+==== Explain Polymorphism with an example ====
+#Answer below
+
+
+
+
+=== Question 6 ===
+=== What is Version Control? ===
+#Answer below
+
+
+
+
+=== Question 7 ===
+=== What problem does Git solve? ===
+#Answer below
+
+
+
+
+
+=== Question 8 ===
+=== Difference between: "git merge" and "git rebase" ===
+#Answer below
+
+
+
+=== Question 9 ===
+=== Why should developers use branches? ===
+#Answer below
+
+
+
+=== Question 10 ===
+=== What is a Build Tool? ===
+#Answer below
+
+
+
+=== Question 11 ===
+=== Name two Java Build Tools ===
+#Answer below
+
+
+
+
+
+=== Question 12 ===
+=== Give two benefits of Maven or Gradle ===
+#Answer below
+
+
+
+
+=== Question 13 ===
+=== Define a Low-Level Language ===
+#Answer below
+
+
+
+=== Question 14 ===
+=== Define a High-Level Language ===
+#Answer below
+
+
+=== Question 15 ===
+=== Give one advantage of each ===
+#Answer below
+
+
+=== Question 16 ===
+=== For each principle:
+    "Encapsulation"
+    "Inheritance"
+    "Polymorphism"
+    "Abstraction"
+    Provide:
+        - Definition
+        - Real-world example ===
+#Answer below
+
+
+
+
+=== Question 17 ===
+=== Identify and correct the errors ===
+public class Car {
+
+   private String brand
+
+   public Car(String brand){
+       brand = brand;
+   }
+
+   public string getBrand(){
+       return brand
+   }
+}
+#Answer below
+
+
