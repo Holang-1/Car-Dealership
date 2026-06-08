@@ -27,15 +27,16 @@ Car-Dealership/
 ├── TheoryAnswers.txt
 │
 ├── UML/
-│   └── CarDealership_UML.drawio
+│   └── CarDealership_UML.png
 │
 ├── src/
 │   ├── main/
 │   │   └── java/
-│   │       └── dealership/
-│   │           ├── Vehicle.java
-│   │           ├── Car.java
-│   │           └── Dealership.java
+│   │       └── com/
+│   │           └── holang_and_liyanda/
+│   │               ├── Vehicle.java
+│   │               ├── Car.java
+│   │               └── Dealership.java
 │   │
 │   └── test/
 │       └── java/
