@@ -12,15 +12,6 @@ public class RequiredTest {
     @Test
     void testInventoryCount() {
         CarDealershipApp dealership = new CarDealershipApp();
-
-        dealership.addVehicle(
-                new Vehicle("Toyota", "Corolla", 250000, "CA-444-555")
-        );
-
-        dealership.addVehicle(
-                new Vehicle("Ford", "Ranger", 500000, "CA-555-616")
-        );
-        CarDealershipApp dealership = new CarDealershipApp();
         dealership.addVehicle(new Vehicle("Toyota", "Corolla", 250000, "CA-123-456"));
         dealership.addVehicle(new Vehicle("Ford", "Ranger", 500000, "CA-132-465"));
 
@@ -39,13 +30,6 @@ public class RequiredTest {
     @Test
     void testMostExpensiveVehicle() {
         CarDealershipApp dealership = new CarDealershipApp();
-
-        Vehicle v1 =
-                new Vehicle("Toyota","Corolla",250000, "CA-313-212");
-
-        Vehicle v2 =
-                new Vehicle("Ford","Ranger",500000, "CA-111-222");
-        CarDealershipApp dealership = new CarDealershipApp();
         Vehicle v1 = new Vehicle("Toyota","Corolla",250000, "CA-147-258");
         Vehicle v2 = new Vehicle("Ford","Ranger",500000, "CA-741-852");
 
@@ -58,7 +42,7 @@ public class RequiredTest {
 
     @Test
     void testVehicleInfo() {
-        Car car = new Car("Toyota", "Corolla", 250000, 4, "CA-963-369");
+        Car car = new Car("Toyota", "Corolla", 250000,  "CA-963-369", 4);
 
         assertEquals("Toyota Corolla - R250000.00 - 4 doors", car.getVehicleInfo()
         );

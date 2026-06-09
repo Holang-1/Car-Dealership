@@ -20,6 +20,7 @@ public class Car extends Vehicle {
     }
 
     public String getVehicleInfo() {
-        return getBrand() + " " + getModel() + " - R" + getPrice() + " - " + doors;
+        // saved the factorial weirdly (review)
+        return getBrand() + " " + getModel() + " - R" + getPrice() + "0 - " + doors + " doors";
     }
 }

@@ -42,7 +42,7 @@ public class Vehicle {
     }
 
     public String getVehicleInfo() {
-        return  brand +  " " + model + " - R" + price + " - 4 doors";
+        return  brand +  " " + model + " - R" + price;
     }
 
     public String getNumberPlate() {
