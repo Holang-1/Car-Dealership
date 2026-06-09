@@ -44,7 +44,7 @@ public class RequiredTest {
     void testVehicleInfo() {
         Car car = new Car("Toyota", "Corolla", 250000,  "CA-963-369", 4);
 
-        assertEquals("Toyota Corolla - R250000.00 - 4 doors", car.getVehicleInfo()
+        assertEquals("Toyota Corolla - R250000.00 - CA-963-369 - 4 doors", car.getVehicleInfo()
         );
     }
 

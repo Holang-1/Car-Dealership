@@ -35,14 +35,14 @@ public class Vehicle {
     }
 
     public void setPrice(double price) {
-        if (price > 0) {
+        if (price < 0) {
             throw new IllegalArgumentException();
         }
         this.price = price;
     }
 
     public String getVehicleInfo() {
-        return  brand +  " " + model + " - R" + price;
+        return  brand +  " " + model + " - R" + String.format("%.2f", price) + " - " + getNumberPlate();
     }
 
     public String getNumberPlate() {

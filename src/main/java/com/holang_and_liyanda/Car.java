@@ -19,8 +19,9 @@ public class Car extends Vehicle {
         this.doors = doors;
     }
 
+    @Override
     public String getVehicleInfo() {
         // saved the factorial weirdly (review)
-        return getBrand() + " " + getModel() + " - R" + getPrice() + "0 - " + doors + " doors";
+        return getBrand() + " " + getModel() + " - R" + String.format("%.2f", getPrice()) + " - " + getNumberPlate() + " - " + doors + " doors";
     }
 }
