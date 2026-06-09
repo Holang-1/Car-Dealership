@@ -54,24 +54,26 @@ Car-Dealership/
 
 ## Vehicle Class
 
-| Attribute | Type | Description |
-|------------|------|-------------|
-| brand | String | Vehicle manufacturer |
-| model | String | Vehicle model |
-| price | double | Vehicle selling price |
+| Attribute   | Type   | Description           |
+|-------------|--------|-----------------------|
+| brand       | String | Vehicle manufacturer  |
+| model       | String | Vehicle model         |
+| price       | double | Vehicle selling price |
+| numberPlate | String | Unique car ID         |
 
 ### Methods
 
-| Method | Return Type | Description |
-|----------|------------|-------------|
-| Vehicle() | Constructor | Creates Vehicle object |
-| getBrand() | String | Returns brand |
-| setBrand() | void | Updates brand |
-| getModel() | String | Returns model |
-| setModel() | void | Updates model |
-| getPrice() | double | Returns price |
-| setPrice() | void | Updates price |
-| getVehicleInfo() | String | Returns vehicle information |
+| Method           | Return Type | Description                     |
+|------------------|-------------|---------------------------------|
+| Vehicle()        | Constructor | Creates Vehicle object          |
+| getBrand()       | String      | Returns brand                   |
+| setBrand()       | void        | Updates brand                   |
+| getNumberPlate() | String      | Returns a Vehicles number plate |
+| getModel()       | String      | Returns model                   |
+| setModel()       | void        | Updates model                   |
+| getPrice()       | double      | Returns price                   |
+| setPrice()       | void        | Updates price                   |
+| getVehicleInfo() | String      | Returns vehicle information     |
 
 ---
 
