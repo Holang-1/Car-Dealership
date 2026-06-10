@@ -36,7 +36,7 @@ Car-Dealership/
 │   │           └── holang_and_liyanda/
 │   │               ├── Vehicle.java
 │   │               ├── Car.java
-│   │               └── Dealership.java
+│   │               └── DealershipApp.java 
 │   │
 │   └── test/
 │       └── java/
