@@ -3,25 +3,27 @@ DO NOT CHANGE THE FORMAT -- DO NOT CREATE A NEW txt file
 === Question 1 ===
 ==== Define Encapsulation ====
 #Answer below
-
-
+It is restricting access to a class's fields by making them private/protected and creating public getter and setter methods
+This way the objects fields won't be changed directly from other files
 
 === Question 2 ===
 ==== Give one advantage of Encapsulation ====
 #Answer below
-
+It is almost impossibles to "accidentally" break the code by reassigning the value of the objects attributes
 
 === Question 3 ===
 ==== Define Inheritance ====
 #Answer below
-
-
-
+It is when a class inherits attributes and/or methods of another class. Think of it like the class inheriting is the child and the other class is the parent.
+The child can have characteristics that are identical to the parent and sometimes have additional characteristics
+Similarly with OOP inheritance the subclass can have additional characteristics
+It helps to eliminate writing redundant code or writing the same/similar code on every class. This could be a headache when debugging or removing a no longer needed feature.
 
 === Question 4 ===
 ==== What is Method Overriding? ====
 #Answer below
-
+It is having more than 1 method that have the same name and most time do the same thing but that take/return different input/output
+It makes the class/file more flexible meaning it can take/return different types of input/output without breaking.
 
 
 === Question 5 ===
