@@ -4,23 +4,24 @@ DO NOT CHANGE THE FORMAT -- DO NOT CREATE A NEW txt file
 ==== Define Encapsulation ====
 #Answer below
 
-Encapsulation is the method of binding attributes and methods together to create a class, with different access modifiers.
+Encapsulation is the method of binding attributes and methods together to create a class, while hiding the internal state and restricting direct access.
 
 Use cases:
-    It is best to use encapsulation when dealing with problems/classes that have sensitive information that should not be made available to other classes
-        using access modifiers such as "private" so that certain attributes can not be used by other classes
+    It is best to use encapsulation when dealing with problems/classes that have sensitive information or internal logic that should not be directly altered by other classes
+    This is achieved by using access modifiers such as "private" so that certain attributes can only be accessed or modified through public methods (getters/setters)
+
 
 === Question 2 ===
 ==== Give one advantage of Encapsulation ====
 #Answer below
 
-The advantage of Encapsulation is the way in which particular access modifiers ensure that certain attributes cannot be used outside of their declared classes
+The advantage of Encapsulation is increased security and control, preventing outside classes from accidentally modifying or corruptting an object's internal data.
 
 === Question 3 ===
 ==== Define Inheritance ====
 #Answer below
 
-Inheritance is the usage of attributes and methods of a base (parent) class into a sub (child) class.
+Inheritance is a principle where a new class (childclass) takes and reuses the attributes and methods of an existing class (parent class).
 
 
 
@@ -28,53 +29,56 @@ Inheritance is the usage of attributes and methods of a base (parent) class into
 ==== What is Method Overriding? ====
 #Answer below
 
-Method overriding is a feature in OOP that allows a child class to provide a specific implementation of a method that is already defined in a parent class
+Method overriding is a feature in OOP that allows a child class to provide a specific implementation of a method that is already defined in its parent class, using the same method name and its parameters
 
 === Question 5 ===
 ==== Explain Polymorphism with an example ====
 #Answer below
 
-Using the same piece of code in another part of the project by means of method overloading
+Polymorphism allows different objects to respond to the same method call in their own way,
 
+A parent Animal class w/ the method makeSound(), a Dog() child class will bark while a Cat() child will meow when that method is called
 
 === Question 6 ===
 === What is Version Control? ===
 #Answer below
 
 
-Keeping track of one's projects via resources such a git, actively working on those projects, whether remotely or locally can be considered version control
+Version control is a system that tracks changes to a file or set of files over time so that devs can recall specific versions later, find work history and collaborate w/ others
 
 === Question 7 ===
 === What problem does Git solve? ===
 #Answer below
 
 
-Git solves the problem of containment of project enviornments, tracking file changes and managing the chaos that comes with huge projects when working with others by acting as a version control system.
+Git solves the problem of accidental code overwrites, lost project history and the difficulty of managing the chaos that comes with huge projects when working with others by acting as a version control system.
 
 
 === Question 8 ===
 === Difference between: "git merge" and "git rebase" ===
 #Answer below
 
-"git merge" is used when devs are working in different feaure branches and want to incorporate file changes made into the main program, 
-    - It is a terminal command that is part of version control 
+"git merge"
+    - Combines the history of two branches by creating a brand new "merge commit" that ties them together
 
-"git rebase" is used when merge conflicts occurr and fixing the issues need to be resolved in a controlled manner
+"git rebase" 
+    - Rewrites the project history by moving a feature branch so it begins at the tip of the main branch so that it creates a linear timeline
 
 === Question 9 ===
 === Why should developers use branches? ===
 #Answer below
 
 
-Developers should use branches for all round version control, this allows them to work on multiple different features within the same project 
+Developers should use branches to isolate theirn work
+    - This allows them to work on multiple different features within the same project w/o messing up the main code line
 
-Branches allow for easy collaboration in multiple groups
+Branches allow for easy collaboration in multiple groups w/o stepping on each other's toes
 
 === Question 10 ===
 === What is a Build Tool? ===
 #Answer below
 
-A build tool is a tool that help compile, build and test our projects
+A build tool is a tool that does the process of compiling, testing and packaging source code into and executable application, doing all the manual work for devs.
 
 === Question 11 ===
 === Name two Java Build Tools ===
@@ -88,30 +92,30 @@ Maven and Gradle
 === Give two benefits of Maven or Gradle ===
 #Answer below
 
-
-The benefits of maven is that it comes with build pre-requisites that compile and build our Java projects 
+1. Dependency Management : They automatically download and update exernal libraries your project needs 
+2. Consistent Build Process : They ensure the project builds exactly the same way on every dev's machine  
 
 
 === Question 13 ===
 === Define a Low-Level Language ===
 #Answer below
 
-A low level Language is a language that cannot be understood by humans
+A low level Language is a language that is closer to binary and difficult for humans to read, but perfec for computer hardware
 
 === Question 14 ===
 === Define a High-Level Language ===
 #Answer below
 
-A high level language is a language that can be easily understood by humans
+A high level language is a language that uses human-readable syntac (english words), making it easier for humans to write and understand
 
 === Question 15 ===
 === Give one advantage of each ===
 #Answer below
 
 Low level language:
-    Machine code (uses binary numbers)
+    Execution Speed: It runs very fast and uses little memory while it communicates directly w/ the hardware
 High level language:
-    Java or Python
+    Developer Productivity: Its much faster to write, easier to debug and works across different types of computers
 
 
 === Question 16 ===
@@ -125,18 +129,18 @@ High level language:
         - Real-world example ===
 #Answer below
 
-Encapsulation - method binding data and functions together to create a single unit called a class 
-    - A bank wraps various kinds of a person's information to keep/create their bank account
+Encapsulation - method binding data and functions together to create a single unit called a class and restricting direct outside access to protect it
+    - A bank wraps various kinds of a person's information to keep/create their bank account and only allows access via trusted tellers and ATMs
 
-Inheritance - method of a subclass (child) taking and using attributes and methods of a superclass (parent) by means of overriding
-    - A bmw car has similar identifiers with a mercedes car because they are both vehicles sharing commonalities  
+Inheritance - a principle where a subclass (child) automatically gets the attributes and methods of a superclass (parent)
+    - A Car and a Motorbike inherit basic traits like "wheels" and "speed" from a parent category called Vehicle  
 
-Polymorphism - ability for different objects to respond to the same instruction in their own way by means of method overloading 
+Polymorphism - ability for different objects to respond to the same action/method in their own unique way 
     - A remote's "On/Off" command sends a signal but the connected device decides how to execute the command
-        - TV turns on or Off
+        - TV turns on screen
         - AC blows cold air 
 
-Abstraction - when you use a class/method to show essential features without showing the inner workings of the class/method
+Abstraction - when you use a class/method to show essential features without showing the complex details/inner workings to the user
     - A car is driven by people who have a basic idea of how it works without getting into all the complex details of why it works
 
 === Question 17 ===
