@@ -4,17 +4,23 @@ DO NOT CHANGE THE FORMAT -- DO NOT CREATE A NEW txt file
 ==== Define Encapsulation ====
 #Answer below
 
-Encapsulation is the 
+Encapsulation is the method of binding attributes and methods together to create a class, with different access modifiers.
+
+Use cases:
+    It is best to use encapsulation when dealing with problems/classes that have sensitive information that should not be made available to other classes
+        using access modifiers such as "private" so that certain attributes can not be used by other classes
 
 === Question 2 ===
 ==== Give one advantage of Encapsulation ====
 #Answer below
 
+The advantage of Encapsulation is the way in which particular access modifiers ensure that certain attributes cannot be used outside of their declared classes
 
 === Question 3 ===
 ==== Define Inheritance ====
 #Answer below
 
+Inheritance is the usage of attributes and methods of a base (parent) class into a sub (child) class.
 
 
 
@@ -22,13 +28,13 @@ Encapsulation is the
 ==== What is Method Overriding? ====
 #Answer below
 
-
+Method overriding is a feature in OOP that allows a child class to provide a specific implementation of a method that is already defined in a parent class
 
 === Question 5 ===
 ==== Explain Polymorphism with an example ====
 #Answer below
 
-
+Using the same piece of code in another part of the project by means of method overloading
 
 
 === Question 6 ===
@@ -36,7 +42,7 @@ Encapsulation is the
 #Answer below
 
 
-
+Keeping track of one's projects via resources such a git, actively working on those projects, whether remotely or locally can be considered version control
 
 === Question 7 ===
 === What problem does Git solve? ===
