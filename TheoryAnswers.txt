@@ -49,33 +49,39 @@ Keeping track of one's projects via resources such a git, actively working on th
 #Answer below
 
 
-
+Git solves the problem of containment of project enviornments, tracking file changes and managing the chaos that comes with huge projects when working with others by acting as a version control system.
 
 
 === Question 8 ===
 === Difference between: "git merge" and "git rebase" ===
 #Answer below
 
+"git merge" is used when devs are working in different feaure branches and want to incorporate file changes made into the main program, 
+    - It is a terminal command that is part of version control 
 
+"git rebase" is used when merge conflicts occurr and fixing the issues need to be resolved in a controlled manner
 
 === Question 9 ===
 === Why should developers use branches? ===
 #Answer below
 
 
+Developers should use branches for all round version control, this allows them to work on multiple different features within the same project 
+
+Branches allow for easy collaboration in multiple groups
 
 === Question 10 ===
 === What is a Build Tool? ===
 #Answer below
 
-
+A build tool is a tool that help compile, build and test our projects
 
 === Question 11 ===
 === Name two Java Build Tools ===
 #Answer below
 
 
-
+Maven and Gradle 
 
 
 === Question 12 ===
@@ -83,22 +89,29 @@ Keeping track of one's projects via resources such a git, actively working on th
 #Answer below
 
 
+The benefits of maven is that it comes with build pre-requisites that compile and build our Java projects 
 
 
 === Question 13 ===
 === Define a Low-Level Language ===
 #Answer below
 
-
+A low level Language is a language that cannot be understood by humans
 
 === Question 14 ===
 === Define a High-Level Language ===
 #Answer below
 
+A high level language is a language that can be easily understood by humans
 
 === Question 15 ===
 === Give one advantage of each ===
 #Answer below
+
+Low level language:
+    Machine code (uses binary numbers)
+High level language:
+    Java or Python
 
 
 === Question 16 ===
@@ -112,8 +125,19 @@ Keeping track of one's projects via resources such a git, actively working on th
         - Real-world example ===
 #Answer below
 
+Encapsulation - method binding data and functions together to create a single unit called a class 
+    - A bank wraps various kinds of a person's information to keep/create their bank account
 
+Inheritance - method of a subclass (child) taking and using attributes and methods of a superclass (parent) by means of overriding
+    - A bmw car has similar identifiers with a mercedes car because they are both vehicles sharing commonalities  
 
+Polymorphism - ability for different objects to respond to the same instruction in their own way by means of method overloading 
+    - A remote's "On/Off" command sends a signal but the connected device decides how to execute the command
+        - TV turns on or Off
+        - AC blows cold air 
+
+Abstraction - when you use a class/method to show essential features without showing the inner workings of the class/method
+    - A car is driven by people who have a basic idea of how it works without getting into all the complex details of why it works
 
 === Question 17 ===
 === Identify and correct the errors ===
@@ -131,4 +155,15 @@ public class Car {
 }
 #Answer below
 
+public class Car {
 
+   private String brand;
+
+   public Car(String brand){
+       this.brand = brand;
+   }
+
+   public String getBrand(){
+       return brand;
+   }
+}
