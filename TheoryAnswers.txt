@@ -4,7 +4,7 @@ DO NOT CHANGE THE FORMAT -- DO NOT CREATE A NEW txt file
 ==== Define Encapsulation ====
 #Answer below
 
-
+Encapsulation is the 
 
 === Question 2 ===
 ==== Give one advantage of Encapsulation ====
