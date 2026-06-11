@@ -15,13 +15,13 @@ Use cases:
 ==== Give one advantage of Encapsulation ====
 #Answer below
 
-The advantage of Encapsulation is increased security and control, preventing outside classes from accidentally modifying or corruptting an object's internal data.
+The advantage of Encapsulation is increased security and control, preventing outside classes from accidentally modifying or corrupting an object's internal data.
 
 === Question 3 ===
 ==== Define Inheritance ====
 #Answer below
 
-Inheritance is a principle where a new class (childclass) takes and reuses the attributes and methods of an existing class (parent class).
+Inheritance is a principle where a new class (child class) takes and reuses the attributes and methods of an existing class (parent class).
 
 
 
@@ -69,7 +69,7 @@ Git solves the problem of accidental code overwrites, lost project history and t
 #Answer below
 
 
-Developers should use branches to isolate theirn work
+Developers should use branches to isolate their work
     - This allows them to work on multiple different features within the same project w/o messing up the main code line
 
 Branches allow for easy collaboration in multiple groups w/o stepping on each other's toes
@@ -92,7 +92,7 @@ Maven and Gradle
 === Give two benefits of Maven or Gradle ===
 #Answer below
 
-1. Dependency Management : They automatically download and update exernal libraries your project needs 
+1. Dependency Management : They automatically download and update external libraries your project needs
 2. Consistent Build Process : They ensure the project builds exactly the same way on every dev's machine  
 
 
@@ -100,13 +100,13 @@ Maven and Gradle
 === Define a Low-Level Language ===
 #Answer below
 
-A low level Language is a language that is closer to binary and difficult for humans to read, but perfec for computer hardware
+A low level Language is a language that is closer to binary and difficult for humans to read, but perfect for computer hardware
 
 === Question 14 ===
 === Define a High-Level Language ===
 #Answer below
 
-A high level language is a language that uses human-readable syntac (english words), making it easier for humans to write and understand
+A high level language is a language that uses human-readable syntax (english words), making it easier for humans to write and understand
 
 === Question 15 ===
 === Give one advantage of each ===
