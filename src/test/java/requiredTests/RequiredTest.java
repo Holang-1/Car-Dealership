@@ -5,7 +5,7 @@ import com.holang_and_liyanda.CarDealershipApp;
 import com.holang_and_liyanda.Vehicle;
 import org.junit.jupiter.api.Test;
 
-import com.holang_and_liyanda.*;
+// import com.holang_and_liyanda.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class RequiredTest {

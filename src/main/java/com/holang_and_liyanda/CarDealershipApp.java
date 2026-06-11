@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CarDealershipApp {
-    private List<Vehicle> vehicles;
+    private final List<Vehicle> vehicles;
 
     public CarDealershipApp() {
         this.vehicles = new ArrayList<>();
@@ -17,8 +17,19 @@ public class CarDealershipApp {
         this.vehicles.add(vehicle);
     }
 
+    public void removeVehicle(String model) {
+        // if (model == null) {
+        //     throw new IllegalArgumentException();
+        // }
+        for (Vehicle vehicle : vehicles) {
+            if (Objects.equals(vehicle.getModel(), model)) {
+                vehicles.remove(vehicle);
+            }
+        }
+    }
+
     public int getInventoryCount() {
-        return vehicles.toArray().length;
+        return vehicles.size();
     }
 
     public double getTotalInventoryValue() {
